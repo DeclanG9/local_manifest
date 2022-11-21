@@ -72,10 +72,10 @@
 		name="packages_apps_Settings"/>
 
 	<project
-		path="packages/apps/Settings"
-		name="derp_sett"
-		remote="etc"
-		revision="mod"
+		path="Settings"
+		name="Settings"
+		remote="DeclanG9"
+		revision="13"
 		clone-depth="1"/>
 
 	<remove-project
