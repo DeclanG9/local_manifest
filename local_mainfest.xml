@@ -2,64 +2,62 @@
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Remote -->
 	<remote
-		name="NFS"
-		fetch="https://github.com/NFS-project"/>
+		name="PainKiller3"
+		fetch="https://github.com/PainKiller3"/>
 
 	<remote
-		name="frstprjkt"
-		fetch="https://github.com/frstprjkt"/>
+		name="DeclanG9"
+		fetch="https://github.com/d3cl4n90"/>
 
-	<remote
+	<remote 
 		name="kdrag0n"
 		fetch="https://github.com/kdrag0n"/>
-
-	<remote
-		name="etc"
-		fetch="https://github.com/c3eru"/>
-
-	<remote
-		name="gfboy"
-		fetch="https://github.com/greenforce-project"/>
 
 	<remote
 		name="xd"
 		fetch="https://github.com/xdroid-oss"
 		revision="thirteen"/>
 
-	<remote
-		name="derp"
-		fetch="https://github.com/DerpFest-AOSP"
-		revision="13"/>
-
+     <!-- Trees -->
 	<project
-		path="device/xiaomi/chime"
-		name="dtawaken"
-		remote="etc"
-		revision="derp"
-		clone-depth="1"/>
-
-	<project
-		path="vendor/xiaomi/chime"
-		name="vendor_xiaomi_chime"
-		remote="frstprjkt"
+		path="device/xiaomi/beryllium"
+		name="device_xiaomi_beryllium"
+		remote="DeclanG9"
 		revision="thirteen"
 		clone-depth="1"/>
 
 	<project
-		path="kernel/xiaomi/chime"
-		name="kernel_xiaomi_citrus_sm6115"
-		remote="gfboy"
-		revision="main"
+		path="device/xiaomi/sdm845-common"
+		name="device_xiaomi_sdm845-common"
+		remote="DeclanG9"
+		revision="thirteen"
 		clone-depth="1"/>
 
+	<project
+		path="vendor/xiaomi"
+		name="vendor_xiaomi"
+		remote="PainKiller3"
+		revision="thirteen"
+		clone-depth="1"/>
+
+	<project
+		path="kernel/xiaomi/sdm845"
+		name="kernel_xiaomi_sdm845"
+		remote="PainKiller3"
+		revision="thirteen"
+		clone-depth="1"/>
+
+    <!-- Clang --> 
 	<project
 		path="prebuilts/clang/host/linux-x86/clang-proton"
 		name="proton-clang"
 		remote="kdrag0n"
 		revision="master"
 		clone-depth="1"/>
-
+ 
+    <!-- Replacement  -->
 	<remove-project
 		name="android_hardware_lineage_compat"/>
 
@@ -72,21 +70,11 @@
 		name="packages_apps_Settings"/>
 
 	<project
-		path="Settings"
+		path="packages/apps/Settings"
 		name="Settings"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
-
-	<remove-project
-		name="frameworks_base"/>
-
-	<project
-		path="frameworks/base"
-		name="fw_derp"
-		groups="pdk-cw-fs,pdk-fs"
-		remote="etc"
-		revision="mod"/>
 
 </manifest>
 
