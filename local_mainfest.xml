@@ -67,7 +67,7 @@
 		remote="xd"/>
 		
 	<remove-project
-	    name="framework-base"/>
+	    name="frameworks_base"/>
 	    
 	<project
 	          path="frameworks/base" 
