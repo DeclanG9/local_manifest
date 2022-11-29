@@ -70,11 +70,11 @@
 	    name="frameworks_base"/>
 	    
 	<project
-	          path="frameworks/base" 
-                 name="fwb_derp" 
-                 groups="pdk-cw-fs,pdk-fs" 
-                 remote="DeclanG9" 
-                 revision="staging"/>
+        path="frameworks/base"
+        name="fwb_derp"
+        groups="pdk-cw-fs,pdk-fs"
+        remote="DeclanG9"
+        revision="staging"/>
 
 	<remove-project
 		name="packages_apps_Settings"/>
