@@ -81,7 +81,7 @@
 
 	<project
 		path="packages/apps/Settings"
-		name="Settings"
+		name="settings_derp"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
