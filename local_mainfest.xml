@@ -38,8 +38,8 @@
 	<project
 		path="vendor/xiaomi"
 		name="vendor_xiaomi"
-		remote="PainKiller3"
-		revision="thirteen"
+		remote="DeclanG9"
+		revision="13"
 		clone-depth="1"/>
 
 	<project
