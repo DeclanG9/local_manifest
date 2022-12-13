@@ -66,15 +66,5 @@
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
 
-	<remove-project
-		name="packages_apps_Settings"/>
-
-	<project
-		path="packages/apps/Settings"
-		name="settings_derp"
-		remote="DeclanG9"
-		revision="13"
-		clone-depth="1"/>
-
 </manifest>
 
