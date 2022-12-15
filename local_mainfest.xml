@@ -67,8 +67,14 @@
 		remote="xd"/>
 		
 	<remove-project
-	    path="vendor/overlay" name="vendor_overlay" remote="derp" />
-  <project 
+	    path="vendor/overlay" />
+	    
+	<project
+		path="vendor/overlay"
+		name="vendor_overlay"
+		remote="DeclanG9"
+		revision="13"
+		clone-depth="1"/>
 
 </manifest>
 
