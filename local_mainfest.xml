@@ -67,7 +67,7 @@
 		remote="xd"/>
 		
 	<remove-project
-	    path="vendor/overlay" />
+	    name="vendor/overlay" />
 	    
 	<project
 		path="vendor/overlay"
