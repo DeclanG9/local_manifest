@@ -23,7 +23,7 @@
      <!-- Trees -->
 	<project
 		path="device/xiaomi/beryllium"
-		name="device_xiaomi_beryllium"
+		name="device_tree"
 		remote="DeclanG9"
 		revision="thirteen"
 		clone-depth="1"/>
