@@ -30,7 +30,7 @@
 
 	<project
 		path="device/xiaomi/sdm845-common"
-		name="device_xiaomi_sdm845-common_new"
+		name="device_xiaomi_sdm845-common"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
