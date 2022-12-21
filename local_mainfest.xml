@@ -23,16 +23,16 @@
      <!-- Trees -->
 	<project
 		path="device/xiaomi/beryllium"
-		name="device_tree"
+		name="beryllium_tree"
 		remote="DeclanG9"
-		revision="thirteen"
+		revision="13"
 		clone-depth="1"/>
 
 	<project
 		path="device/xiaomi/sdm845-common"
-		name="device_xiaomi_sdm845-common"
+		name="beryllium_tree-common"
 		remote="DeclanG9"
-		revision="thirteen"
+		revision="13"
 		clone-depth="1"/>
 
 	<project
