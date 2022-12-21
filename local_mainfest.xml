@@ -37,7 +37,7 @@
 
 	<project
 		path="vendor/xiaomi"
-		name="vendor_xiaomi"
+		name="beryllium_vendor"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
