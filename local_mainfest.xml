@@ -71,7 +71,7 @@
 
 	<project
 		path="packages/apps/Settings"
-		name="Derp_Settings"
+		name="settings_df"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
