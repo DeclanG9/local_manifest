@@ -23,21 +23,21 @@
      <!-- Trees -->
 	<project
 		path="device/xiaomi/beryllium"
-		name="device_xiaomi_beryllium"
+		name="beryllium_tree"
 		remote="DeclanG9"
-		revision="thirteen"
+		revision="13"
 		clone-depth="1"/>
 
 	<project
 		path="device/xiaomi/sdm845-common"
-		name="device_xiaomi_sdm845-common"
+		name="beryllium_tree-common"
 		remote="DeclanG9"
-		revision="thirteen"
+		revision="13"
 		clone-depth="1"/>
 
 	<project
 		path="vendor/xiaomi"
-		name="vendor_xiaomi"
+		name="beryllium_vendor"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
@@ -65,23 +65,13 @@
 		path="hardware/xiaomi"
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
-		
-	<remove-project
-	    name="frameworks_base"/>
-	    
-	<project
-        path="frameworks/base"
-        name="fwb_derp"
-        groups="pdk-cw-fs,pdk-fs"
-        remote="DeclanG9"
-        revision="staging"/>
 
 	<remove-project
 		name="packages_apps_Settings"/>
 
 	<project
 		path="packages/apps/Settings"
-		name="settings_derp"
+		name="Derp_Settings"
 		remote="DeclanG9"
 		revision="13"
 		clone-depth="1"/>
