@@ -74,7 +74,7 @@
         name="fwb_derp" 
         groups="pdk-cw-fs,pdk-fs" 
         remote="DeclanG9" 
-        revision="baru"/>
+        revision="battery"/>
 
 	<remove-project
 		name="packages_apps_Settings"/>
