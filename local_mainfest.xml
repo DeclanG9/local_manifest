@@ -65,6 +65,16 @@
 		path="hardware/xiaomi"
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
+		
+	<remove-project
+        name="framework-base"/>
+        
+    <project
+	    path="frameworks/base" 
+        name="fwb_derp" 
+        groups="pdk-cw-fs,pdk-fs" 
+        remote="DeclanG9" 
+        revision="baru"/>
 
 	<remove-project
 		name="packages_apps_Settings"/>
