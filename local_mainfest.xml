@@ -23,23 +23,23 @@
      <!-- Trees -->
 	<project
 		path="device/xiaomi/beryllium"
-		name="beryllium_tree"
+		name="evox_tree"
 		remote="DeclanG9"
-		revision="13"
+		revision="test"
 		clone-depth="1"/>
 
 	<project
 		path="device/xiaomi/sdm845-common"
-		name="beryllium_tree-common"
+		name="evox_beryllium-common"
 		remote="DeclanG9"
-		revision="13"
+		revision="test"
 		clone-depth="1"/>
 
 	<project
 		path="vendor/xiaomi"
-		name="beryllium_vendor"
+		name="evox_vendor"
 		remote="DeclanG9"
-		revision="13"
+		revision="thirteen"
 		clone-depth="1"/>
 
 	<project
@@ -56,15 +56,6 @@
 		remote="kdrag0n"
 		revision="master"
 		clone-depth="1"/>
- 
-    <!-- Replacement  -->
-	<remove-project
-		name="android_hardware_lineage_compat"/>
-
-	<project
-		path="hardware/xiaomi"
-		name="xd_hardware_xiaomi"
-		remote="xd"/>
 
 </manifest>
 
